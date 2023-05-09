@@ -1,10 +1,5 @@
 import Head from "next/head";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import me from "../../public/me.png";
 import code from "../../public/code.png";
 import design from "../../public/design.png";
@@ -16,6 +11,7 @@ import web3 from "../../public/web3.png";
 import web4 from "../../public/web4.png";
 import web5 from "../../public/web5.png";
 import web6 from "../../public/web6.png";
+import { Roboto } from "next/font/google";
 
 export default function Home() {
   return (
@@ -71,7 +67,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 text-teal-600">
+            <h3 className="text-3xl py-1 text-teal-600 font-semibold">
               Stacks e Habilidades
             </h3>
             <p className="text-md py-2 leading-8 text-white">
@@ -106,10 +102,10 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
               <Image src={code} width={100} height={100} alt={""} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Java | Nodejs</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Java | NodeJs</h3>
               <p className="py-2">
-                Node.js e Java me permitem oferecer soluções de software
-                robustas e escaláveis, atendendo às necessidades dos clientes em
+                NodeJs e Java me permitem oferecer soluções de software robustas
+                e escaláveis, atendendo às necessidades dos clientes em
                 diferentes áreas de atuação e mercados.
               </p>
               <h4 className="py-4 text-teal-600">Spring boot / Express</h4>
