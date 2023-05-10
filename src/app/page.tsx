@@ -98,7 +98,7 @@ export default function Home() {
               <p className=" py-1 text-black">Styled Components</p>
               <p className=" py-1 text-black">Figma</p>
             </div>
-            <div className="text-blackhadow-lg p-10 rounded-xl my-10 bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
               <Image src={code} width={100} height={100} alt={""} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-black">
                 Java | NodeJs
