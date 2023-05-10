@@ -99,23 +99,21 @@ export default function Home() {
               <p className=" py-1 text-black">Figma</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  bg-white flex-1">
               <Image src={code} width={100} height={100} alt={""} />
               <h3 className="text-lg text-center font-medium pt-8 pb-2 text-black">
-                Java | NodeJs
+                Java NodeJs
               </h3>
-              <p className=" text-center  py-2 text-black">
+              <p className="  py-2 text-black">
                 NodeJs e Java me permitem oferecer soluções de software robustas
                 e escaláveis, atendendo às necessidades dos clientes em
                 diferentes áreas de atuação e mercados.
               </p>
-              <h4 className=" text-center py-4 text-teal-600">
-                Spring boot / Express
-              </h4>
-              <p className=" text-center text-black py-1">Hibernate</p>
-              <p className=" text-center text-black py-1">JUnit / Jest</p>
-              <p className=" text-center text-black py-1">JWT / Oauth</p>
-              <p className=" text-center text-black py-1">Postgres / MongoDB</p>
+              <h4 className="py-4 text-teal-600">Spring boot / Express</h4>
+              <p className="text-black py-1">Hibernate</p>
+              <p className="text-black py-1">JUnit / Jest</p>
+              <p className="text-black py-1">JWT / Oauth</p>
+              <p className="text-black py-1">Postgres / MongoDB</p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
