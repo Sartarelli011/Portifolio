@@ -1,18 +1,14 @@
 import Head from "next/head";
+import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import me from "../../public/me.png";
 import code from "../../public/code.png";
 import design from "../../public/design.png";
 import consulting from "../../public/consulting.png";
-import Image from "next/image";
-import web1 from "../../public/web1.png";
-import web2 from "../../public/web2.png";
-import web3 from "../../public/web3.png";
-import web4 from "../../public/web4.png";
-import web5 from "../../public/web5.png";
-import web6 from "../../public/web6.png";
-import { Roboto } from "next/font/google";
-
+import py from "../../public/functions-isencao.png";
+import todoapp from "../../public/TodoList.png";
+import poke from "../../public/pokdex.png";
+import spotify from "../../public/spotify.png";
 export default function Home() {
   return (
     <div>
@@ -31,7 +27,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="https://drive.google.com/file/d/1VQqvGqR_VZRF6mEFRHI8XUjQjWYvOLpx/view?usp=share_link"
                 >
-                  Curriculo
+                  Currículo
                 </a>
               </li>
             </ul>
@@ -129,14 +125,14 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 text-teal-600 ">Portofolio</h3>
+            <h3 className="text-3xl py-1 text-teal-600 font-semibold ">
+              Portofolio
+            </h3>
             <p className="text-md py-2 leading-8 text-white ">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              Aqui está alguns dos meus trabalhos pessoais que demonstram meu
+              conhecimento, fique a vontade para ler os códigos no meu github.
+              Obrigado por acessar e até a próxima.
+              <span className="text-md py-2 leading-8 text-teal-500 ">:)</span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
@@ -145,58 +141,48 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={500}
-                height={500}
-                src={web1}
-                alt={""}
-              />
+              <a href="https://github.com/Sartarelli011/pokedex">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={500}
+                  height={500}
+                  src={poke}
+                  alt={""}
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={500}
-                height={500}
-                src={web2}
-                alt={""}
-              />
+              <a href="https://github.com/Sartarelli011/spotify-clone">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={500}
+                  height={500}
+                  src={spotify}
+                  alt={""}
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={500}
-                height={500}
-                src={web3}
-                alt={""}
-              />
+              <a href="https://github.com/Sartarelli011/todoApp">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={500}
+                  height={500}
+                  src={todoapp}
+                  alt={""}
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={500}
-                height={500}
-                src={web4}
-                alt={""}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={500}
-                height={500}
-                src={web5}
-                alt={""}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={500}
-                height={500}
-                src={web6}
-                alt={""}
-              />
+              <a href="https://github.com/Sartarelli011/Isencao-cartoes">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={500}
+                  height={500}
+                  src={py}
+                  alt={""}
+                />
+              </a>
             </div>
           </div>
         </section>
