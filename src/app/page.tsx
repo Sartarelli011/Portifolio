@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import me from "../../public/me.png";
+import me from "../../public/me.jpeg";
 import code from "../../public/code.png";
 import design from "../../public/design.png";
 import consulting from "../../public/consulting.png";
