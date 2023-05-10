@@ -86,20 +86,24 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  bg-white flex-1">
               <Image src={design} width={100} height={100} alt={""} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">Front End</h3>
-              <p className="py-2 ">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800  ">
+                Front End
+              </h3>
+              <p className="py-2 text-gray-800 ">
                 Criar designs elegantes adequados às suas necessidades seguindo
                 a teoria fundamental do design.
               </p>
               <h4 className="py-4 text-teal-600">React / Next</h4>
-              <p className=" py-1">Bootstrap / Tailwind</p>
-              <p className=" py-1">Styled Components</p>
-              <p className=" py-1">Figma</p>
+              <p className=" py-1 text-gray-800">Bootstrap / Tailwind</p>
+              <p className=" py-1 text-gray-800">Styled Components</p>
+              <p className=" py-1 text-gray-800">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
               <Image src={code} width={100} height={100} alt={""} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Java | NodeJs</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800 ">
+                Java | NodeJs
+              </h3>
+              <p className="py-2 text-gray-800">
                 NodeJs e Java me permitem oferecer soluções de software robustas
                 e escaláveis, atendendo às necessidades dos clientes em
                 diferentes áreas de atuação e mercados.
@@ -112,8 +116,10 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt={""} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Boas Práticas</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800 ">
+                Boas Práticas
+              </h3>
+              <p className="py-2 text-gray-800">
                 clean code e design patterns me permitem criar soluções de
                 software escaláveis, robustas e fáceis de manter.
               </p>
@@ -133,10 +139,6 @@ export default function Home() {
               conhecimento, fique a vontade para ler os códigos no meu github.
               Obrigado por acessar e até a próxima.
               <span className="text-md py-2 leading-8 text-teal-500 ">:)</span>
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
