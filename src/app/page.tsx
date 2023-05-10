@@ -86,46 +86,46 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  bg-white flex-1">
               <Image src={design} width={100} height={100} alt={""} />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800  ">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-black  ">
                 Front End
               </h3>
-              <p className="py-2 text-gray-800 ">
+              <p className="py-2 text-black ">
                 Criar designs elegantes adequados às suas necessidades seguindo
                 a teoria fundamental do design.
               </p>
               <h4 className="py-4 text-teal-600">React / Next</h4>
-              <p className=" py-1 text-gray-800">Bootstrap / Tailwind</p>
-              <p className=" py-1 text-gray-800">Styled Components</p>
-              <p className=" py-1 text-gray-800">Figma</p>
+              <p className=" py-1 text-black">Bootstrap / Tailwind</p>
+              <p className=" py-1 text-black">Styled Components</p>
+              <p className=" py-1 text-black">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
+            <div className="text-blackhadow-lg p-10 rounded-xl my-10 bg-white flex-1">
               <Image src={code} width={100} height={100} alt={""} />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800 ">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-black">
                 Java | NodeJs
               </h3>
-              <p className="py-2 text-gray-800">
+              <p className="py-2 text-black">
                 NodeJs e Java me permitem oferecer soluções de software robustas
                 e escaláveis, atendendo às necessidades dos clientes em
                 diferentes áreas de atuação e mercados.
               </p>
               <h4 className="py-4 text-teal-600">Spring boot / Express</h4>
-              <p className="text-gray-800 py-1">Hibernate</p>
-              <p className="text-gray-800 py-1">JUnit / Jest</p>
-              <p className="text-gray-800 py-1">JWT / Oauth</p>
-              <p className="text-gray-800 py-1">Postgres / MongoDB</p>
+              <p className="text-black py-1">Hibernate</p>
+              <p className="text-black py-1">JUnit / Jest</p>
+              <p className="text-black py-1">JWT / Oauth</p>
+              <p className="text-black py-1">Postgres / MongoDB</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt={""} />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800 ">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-black ">
                 Boas Práticas
               </h3>
-              <p className="py-2 text-gray-800">
+              <p className="py-2 text-black">
                 clean code e design patterns me permitem criar soluções de
                 software escaláveis, robustas e fáceis de manter.
               </p>
               <h4 className="py-4 text-teal-600">Clean Code</h4>
-              <p className="text-gray-800 py-1">Design Patterns</p>
-              <p className="text-gray-800 py-1">Test Driven Development</p>
+              <p className="text-black py-1">Design Patterns</p>
+              <p className="text-black py-1">Test Driven Development</p>
             </div>
           </div>
         </section>
