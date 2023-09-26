@@ -25,7 +25,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1TmKZYIMl42uDBdGR3t1BOcyDCRS4LeAD/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1dOS0-cuq1wiCXNcoS9VPmYaeaK1iKzX3/view?usp=sharing"
                 >
                   Currículo
                 </a>
